@@ -1,7 +1,12 @@
 #!/usr/bin/python3
-def raise_exception_msg(message=""):
-    try:
-        raise NameError
+"""
+a function that raises a name
+exception with a message.
+"""
 
-    except NameError:
-        print("{}".format(message))
+
+def raise_exception_msg(message=""):
+    if NameError:
+        raise NameError(message)
+    else:
+        pass
