@@ -1,0 +1,3 @@
+True
+cat > 12-answer.txt
+True
