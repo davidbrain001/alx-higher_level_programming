@@ -26,5 +26,5 @@ class Square(Rectangle):
             The return. Neatly formated area
         """
         res = self.__size * self.__size
-        return
+        return res 
     
